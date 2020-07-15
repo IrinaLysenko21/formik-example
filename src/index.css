@@ -1,0 +1,72 @@
+.counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.counter {
+  text-align: center;
+  font-size: 30px;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.counter-btn {
+  width: 100px;
+  height: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 5px;
+}
+.form-input {
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.form-textarea {
+  min-width: calc(100% - 20px);
+  max-width: calc(100% - 20px);
+  min-height: 200px;
+  padding: 10px;
+}
+
+.error-message-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+}
+
+.error-message {
+  margin: 0;
+  color: rgb(218, 72, 72);
+}
+
+.submitBtn {
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
